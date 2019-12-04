@@ -1,9 +1,11 @@
-# Phaser 3 Webpack Project Template
+# Phaser 3 Game
 
-A Phaser 3 project template with ES6 support via [Babel 7](https://babeljs.io/) and [Webpack 4](https://webpack.js.org/)
+A Phaser 3 game based on the project template from Photonstorm with ES6 support via [Babel 7](https://babeljs.io/) and [Webpack 4](https://webpack.js.org/)
 that includes hot-reloading for development and production-ready builds.
 
 Loading images via JavaScript module `import` is also supported.
+
+https://github.com/photonstorm/phaser3-project-template
 
 ## Requirements
 
@@ -48,8 +50,8 @@ modify the `webpack/base.js` file for cross-project changes, or you can modify a
 new configuration files and target them in specific npm tasks inside of `package.json'.
 
 ## Deploying Code
-After you run the `npm run build` command, your code will be built into a single bundle located at 
-`dist/bundle.min.js` along with any other assets you project depended. 
+After you run the `npm run build` command, your code will be built into a single bundle located at
+`dist/bundle.min.js` along with any other assets you project depended.
 
-If you put the contents of the `dist` folder in a publicly-accessible location (say something like `http://mycoolserver.com`), 
+If you put the contents of the `dist` folder in a publicly-accessible location (say something like `http://mycoolserver.com`),
 you should be able to open `http://mycoolserver.com/index.html` and play your game.
